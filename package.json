@@ -1,0 +1,17 @@
+{
+  "name": "campus-events",
+  "version": "1.0.0",
+  "description": "Campus events website built with HTML, CSS, Parcel, and Docker",
+  "scripts": {
+    "start": "parcel src/index.html --port 1234",
+    "build": "parcel build src/index.html src/destination.html src/packages.html src/gallery.html src/contact.html --dist-dir dist",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
