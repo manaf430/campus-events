@@ -1,38 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Campus Events | Contact</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="../styles/style.css" />
-	</head>
-	<body class="page-secondary">
-		<header class="simple-header">
-			<nav class="site-nav">
-				<a class="brand" href="./index.html">Campus Events</a>
-				<ul class="nav-links">
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="./destination.html">Destination</a></li>
-					<li><a href="./packages.html">Packages</a></li>
-					<li><a href="./gallery.html">Gallery</a></li>
-					<li><a class="active" href="./contact.html">Contact</a></li>
-				</ul>
-			</nav>
-			<h1>Contact Page</h1>
-			<p>Feature owner: Member 4</p>
-		</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Local Tourism</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-		<main class="content-shell">
-			<section class="placeholder-panel">
-				<h2>Coming soon</h2>
-				<p>This page will include enquiry forms, team contact details, and campus support links.</p>
-			</section>
-		</main>
-	</body>
+    <main>
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>Have a question or want to plan your trip? Reach out to us!</p>
+
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What is this about?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+
+            <div class="social-media">
+                <h2>Follow Us</h2>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter / X</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Local Tourism. All rights reserved.</p>
+    </footer>
+</body>
 </html>
